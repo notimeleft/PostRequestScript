@@ -1,6 +1,10 @@
 # PostRequestScript
 A simple python script that makes a POST request to an API endpoint, to fulfill Perka's "apply by API" challenge
 
+To run the script, execute this command after editing the filename in line 16 to suit whatever pdf you want to encode to base64. The script will also write your encoded file back to desktop by default. 
+> python PostRequestScript.py 
+
+
 Eh? Apply by API? What's that?
 Perka had a normal job application process, and a slightly more interesting process where applicants could send their information and resume through an http POST request. 
 
