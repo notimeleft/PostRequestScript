@@ -9,7 +9,7 @@ Knowing little about making http requests and web APIs, I decided this was the p
 
 To send the resume, I encoded it into base 64 format (python has a built-in library for that) and packed it into a dictionary object, which would be serialized into JSON format before sending. 
 
-I used http://httpbin.org and http://httpbin.org to test the validity of what this script was sending. 
+I used http://httpbin.org and http://ptsv2.com to test the validity of what this script was sending. 
 
 Being the paranoid schizophrenic that I am, I decoded the base64 resume and wrote its results back to desktop, just to make sure the resume had indeed been encoded/decoded correctly 
 
